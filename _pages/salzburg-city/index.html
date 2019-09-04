@@ -1,7 +1,29 @@
 ---
+
+logo: /salzburg-city/logo.svg
+meta-description:
+
 layout: offers
 id: salzburg-city
 title: Salzburg City
 nav: true
 nav-order: 2
+
+intro: >
+  <p class="text--xxl">Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nulla vitae elit libero, a pharetra augue.</p>
+
 ---
+
+{% assign offers = site.data.offers | where: "page", page.id %}
+{% assign offers-by-saving = offers | sort: 'saved' | reverse %}
+{% assign offers-by-price = offers | sort: 'price' %}
+
+<div class="container">
+  <div class="row row--xl-6-6 row--gutters-lg">
+    {% for offer in offers-by-price %}
+      <div class="col">
+        {% include offer/offer.html %}
+      </div>
+    {% endfor %}
+  </div>
+</div>

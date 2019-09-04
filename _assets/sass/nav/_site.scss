@@ -3,7 +3,7 @@
 $site-nav-height:    56px;
 $site-nav-height-sm: 44px;
 $nav-width-bp:       640px;
-$nav-color:          $orange-dark;
+$nav-color:          $black;
 
 
 // global site nav height
@@ -87,9 +87,9 @@ $nav-color:          $orange-dark;
     padding-left: $s4;
     padding-right: $s4;
     font-family: $sans;
-    font-weight: 700;
-    font-size: 11px;
-    letter-spacing: .2em;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     color: $white;
     transition: background-color $transition-time ease;

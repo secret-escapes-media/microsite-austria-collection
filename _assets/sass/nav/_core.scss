@@ -49,7 +49,7 @@ $logo-bp: 600px;
   font-family: $sans;
   color: $grey-lighter;
   text-align: center;
-  background-color: rgba($black,.75);
+  background-color: $black;
 
   // spacing for double logos in core nav
   .logo + .logo { margin-left: $s0; }
