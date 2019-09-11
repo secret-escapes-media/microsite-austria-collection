@@ -51,6 +51,13 @@
   &--valign-bottom { align-items: flex-end; }
   &--valign-center { align-items: center; }
 
+  &--dynamic {
+    @include bp($xl) {
+      flex-wrap: nowrap;
+      justify-content: space-between;
+    }
+  }
+
 
   ////////////////////////////////////////////// row column widths & breakpoints
 

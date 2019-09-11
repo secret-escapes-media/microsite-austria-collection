@@ -38,4 +38,17 @@
     @include transition;
   }
   &:hover &__bg-overlay { background-color: rgba($black,.6); }
+
+  &__credit {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: $z-content-upper;
+    color: $white;
+    font-size: 12px;
+    background-color: rgba($black,0.8);
+    border-radius: 4px 0 0 0;
+    padding: 3px 10px;
+    opacity: 0.8;
+  }
 }

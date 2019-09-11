@@ -2,14 +2,51 @@
 layout: default
 ---
 
-<div class="vpad--xxl">
+<div class="vpad--xl">
+  <div class="container">
 
-  <div class="container container--xxl text--center">
-    {{page.intro}}
+    <div class="width width--xl text--center">
+      {{page.intro}}
+    </div>
+    <div class="space--xxl"></div>
+
+
+    <!-- <div class="row row--dynamic">
+      {% for section in page.sections %}
+        <div class="col">
+          <div class="bg-img bg-img--16-9"></div>
+          <div class="space--sm"></div>
+          <h4 class="title title--xs">{{section.title}}</h4>
+          <p>{{section.content}}</p>
+        </div>
+      {% endfor %}
+    </div> -->
+
+
+    {% for section in page.sections %}
+      <div class="bob {% cycle '', 'bob--swap'%}">
+        <div class="bob__text">
+          <div class="space--sm"></div>
+          <h4 class="title title--sm">{{section.title}}</h4>
+          <p>{{section.content}}</p>
+        </div>
+        <div class="bob__img">
+          <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/{{page.id}}/{{section.id}}.jpg)">
+            {% if section.image-credit %}
+              <div class="bg-img__credit">{{section.image-credit}}</div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+
+
+
   </div>
+</div>
 
+<div class="bg--grey-lightest vpad--xl">
   {{content}}
-
 </div>
 
 {% include page/promo-offers.html %}

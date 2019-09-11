@@ -16,7 +16,10 @@
   &--upper        { text-transform: uppercase; }
 
   // colours
-  &--white { color: $grey-lightest; }
+  &--white {
+    color: $white;
+    &.title, & .title { color: $white; }
+  }
   &--black { color: $grey-dark; }
 
   // alignment
