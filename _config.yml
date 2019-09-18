@@ -8,10 +8,10 @@ description:
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/2019/austria-collection" # the subpath of your site, e.g. /blog/
-img:     "/2019/austria-collection/_assets/img"
-css:     "/2019/austria-collection/_assets/css"
-js:      "/2019/austria-collection/_assets/js"
+baseurl: "/austria-collection" # the subpath of your site, e.g. /blog/
+img:     "/austria-collection/_assets/img"
+css:     "/austria-collection/_assets/css"
+js:      "/austria-collection/_assets/js"
 
 
 # Build settings

@@ -1,7 +1,8 @@
 ---
 
 logo: /austria/logo.svg
-meta-description:
+logo-link: https://www.austria.info/uk
+meta-description: This captivating land packs a weighty punch. From high art to high mountains, verdant valleys to culturally-vibrant cities, Austria is a pick ’n’ mix of wanderlust-inspiring experiences.
 
 layout: offers
 id: austria
@@ -10,15 +11,15 @@ nav: true
 nav-order: 1
 
 intro: >
-  <p class="text--xxl">This captivating land packs a weighty punch. From high art to high mountains, verdant valleys to culturally-vibrant cities, Austria is a pick ’n’ mix of wanderlust-inspiring experiences. </p>
-  <p class="text--lg">Baroque grandeur and operatic pomp set a classy tone in Austria’s cities, with gorgeous alpine landscapes and some of Europe’s finest walking trails nothing but a short train ride away. It’s a romantic way of life, where sweet-toothed travellers are spoilt by an endless assortment of kuchen, and those well-heeled culture-lovers can spend days hopping from palatial galleries to grand orchestral performances. Throw in fairytale castles hidden in beguiling river valleys, soul-stirring glacial landscapes and endless outdoor adventure, and your Austria getaway is starting to shape into one unforgettable escape. </p>
+  <p class="text--xl">This captivating land packs a weighty punch. From high art to high mountains, verdant valleys to culturally-vibrant cities, Austria is a pick ’n’ mix of wanderlust-inspiring experiences. </p>
+  <p class="text--xl">Baroque grandeur and operatic pomp set a classy tone in Austria’s cities, with gorgeous alpine landscapes and some of Europe’s finest walking trails nothing but a short train ride away. It’s a romantic way of life, where sweet-toothed travellers are spoilt by an endless assortment of kuchen, and those well-heeled culture-lovers can spend days hopping from palatial galleries to grand orchestral performances. Throw in fairytale castles hidden in beguiling river valleys, soul-stirring glacial landscapes and endless outdoor adventure, and your Austria getaway is starting to shape into one unforgettable escape. </p>
 
 sections:
 
   - id: culture
     title: Sink into the Culture
     image-credit: "© Maria-Theresien-Strasse_TVB-Innsbruck_Christof-Lackner"
-    content: Austrians live an enviable lifestyle – but it’s one that you can easily sink into as you visit. In the cities, decades of politicking, high-brow chit-chat and gossiping has centred around the coffee houses, where you can indulge in all manner of delicious sweet treats as you sip your coffee as you quote Nietsche or mutter about the weather. Spoil yourself with endless art galleries and theatrical happenings and do as the locals do – escape the city for an Alpine hike, a riverside stroll, and local delicacies in homely guesthouses.
+    content: Austrians live an enviable lifestyle – but it’s one that you can easily sink into. Decades of politicking, high-brow chit-chat and gossiping has been at home in Austria’s iconic coffee-house culture, where you can indulge in all manner of delicious sweet treats (with a classic Viennese coffee of course) before revelling in the grand interiors that coffee-house-stalwarts are graced with. Spoil yourself with endless art galleries and theatrical happenings across cities like Linz and Graz, or head to the birthplace of music in Salzburg, the home of Mozart. To truly live like an Austrian, do as the locals do – escape the cities for an Alpine hike, a riverside stroll, and taste local delicacies in homely guesthouses – all but a stone’s throw from Austria’s culturally-rich cities.
 
   - id: urban
     title: Urban Exploits
@@ -40,7 +41,11 @@ sections:
   <div class="row row--xl-6-6 row--gutters-lg">
     {% for offer in offers-by-price %}
       <div class="col">
-        {% include offer/offer.html %}
+        {% if offer.external %}
+          {% include offer/external-offer.html %}
+        {% else %}
+          {% include offer/offer.html %}
+        {% endif %}
       </div>
     {% endfor %}
   </div>

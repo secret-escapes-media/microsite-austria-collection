@@ -27,7 +27,7 @@ function browserSyncServe() {
     server: {
       baseDir: '_site/',
       routes: {
-        '/2019/austria-collection': '_site/'
+        '/austria-collection': '_site/'
       }
     }
   });

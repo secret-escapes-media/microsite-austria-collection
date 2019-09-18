@@ -25,17 +25,17 @@ layout: default
 
     {% for section in page.sections %}
       <div class="bob {% cycle '', 'bob--swap'%}">
-        <div class="bob__text">
-          <div class="space--sm"></div>
-          <h4 class="title title--sm">{{section.title}}</h4>
-          <p>{{section.content}}</p>
-        </div>
         <div class="bob__img">
           <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/{{page.id}}/{{section.id}}.jpg)">
             {% if section.image-credit %}
               <div class="bg-img__credit">{{section.image-credit}}</div>
             {% endif %}
           </div>
+        </div>
+        <div class="bob__text">
+          <div class="space--sm"></div>
+          <h4 class="title title--sm">{{section.title}}</h4>
+          <p>{{section.content}}</p>
         </div>
       </div>
     {% endfor %}

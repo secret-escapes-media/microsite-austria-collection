@@ -1,7 +1,8 @@
 ---
 
 logo: /salzburg-city/logo.svg
-meta-description:
+logo-link: https://www.salzburg.info/en
+meta-description: Looking for your authentic Austrian experience? Head to Salzburg. A storybook old town with a fairytale castle perched high above it, there are captivating scenes at every turn.
 
 layout: offers
 id: salzburg-city
@@ -10,8 +11,8 @@ nav: true
 nav-order: 2
 
 intro: >
-  <p class="text--xxl">Looking for your authentic Austrian experience? Head to Salzburg. </p>
-  <p class="text--lg">It doesn’t really get prettier than Salzburg. A storybook old town with a fairytale castle perched high above it, there are captivating scenes at every turn. Moreso, when you think back to those heady Baroque days when Mozart stomped the streets around here; in fact, not much has changed since then, and the orchestral tradition still fills the town with music. It spills from open windowed rehearsals and fancy concert halls. So idyllic is the place that it formed the perfect backdrop for The Sound of Music; but beyond the nostalgia, there’s a diverse arts scene, fed by hearty local eats and buzzing cafe-bar culture. It has the beauty, the rolling green hills, riverside walks and pastel old town, and it has the captivating culture that offers any visitor a truly unforgettable, undeniably Austrian, getaway.</p>
+  <p class="text--xl">Looking for your authentic Austrian experience? Head to Salzburg. </p>
+  <p class="text--xl">It doesn’t really get prettier than Salzburg. A storybook old town with a fairytale castle perched high above it, there are captivating scenes at every turn. Moreso, when you think back to those heady Baroque days when Mozart stomped the streets around here; in fact, not much has changed since then, and the orchestral tradition still fills the town with music. It spills from open windowed rehearsals and fancy concert halls. So idyllic is the place that it formed the perfect backdrop for The Sound of Music; but beyond the nostalgia, there’s a diverse arts scene, fed by hearty local eats and buzzing cafe-bar culture. It has the beauty, the rolling green hills, riverside walks and pastel old town, and it has the captivating culture that offers any visitor a truly unforgettable, undeniably Austrian, getaway.</p>
 
 
 sections:
@@ -41,7 +42,11 @@ sections:
   <div class="row row--xl-6-6 row--gutters-lg">
     {% for offer in offers-by-price %}
       <div class="col">
-        {% include offer/offer.html %}
+        {% if offer.external %}
+          {% include offer/external-offer.html %}
+        {% else %}
+          {% include offer/offer.html %}
+        {% endif %}
       </div>
     {% endfor %}
   </div>

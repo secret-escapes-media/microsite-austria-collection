@@ -5,6 +5,6 @@
   {% assign logo = site.img | append: "/logo/partner.svg" %}
 {% endif %}
 
-<a id="track-partner-logo{{include.placement | prepend: '-'}}" class="logo logo--partner{% if include.small %} logo--partner-sm{% endif %}" href="{{site.client.link}}">
+<a href="{{page.logo-link}}" target="_blank" id="track-partner-logo{{include.placement | prepend: '-'}}" class="logo logo--partner{% if include.small %} logo--partner-sm{% endif %}">
   <img src="{{logo}}" alt="{{site.client.name}} Logo">
 </a>
