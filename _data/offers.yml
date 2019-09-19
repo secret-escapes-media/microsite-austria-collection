@@ -50,28 +50,37 @@
   expires: 2019/09/30
   image: https://d2g6qre7voj6kv.cloudfront.net/sales/92144/39f81c30_efc2_4ba8_8c69_f94144096651.jpg?auto=format,compress
   link: https://www.secretescapes.com/hotel-schani-wien-vienna-austria/sale
-
-
+# 
+# - external: true
+#   title: 7-night stay at the 4* Karwendelhof Seefeld with British Airways Holidays
+#   id: ba-innsbruck
+#   location: 4* Karwendelhof Seefeld, Innsbruck, Austria
+#   description: Travelling December 8 to January 31. Includes Euro Traveller return flights from Heathrow and accommodation with breakfast. Book by October 2.
+#   price: 999
+#   price-description: per person for 7 nights
+#   link: https://www.britishairways.com/en-gb/destinations/hotel-information/Innsbruck/Karwendelhof,-Seefeld/AT-ANT-2122655
+#
+#
 
 
 # SALZBURG CITY
 
 - page: salzburg-city
   external: true
-  title: Three nights at the 4* Mercure
+  title: 3-night stay at the 4* Mercure with British Airways Holidays
   id: ba-mercure
   location: 4* Mercure, Salzburg City, Austria
   description: Travelling on selected departures between October 7 to November 15. Includes Euro Traveller return flights from Gatwick and accommodation. Book by October 2.
   price: 289
   price-description: per person for 3 nights
-  link: https://www.britishairways.com/en-gb/destinations/salzburg/salzburg-holidays?DM1_Channel=AFF&DM1_Campaign=UKI_GB_EN_0_Secretescapes_MecureSalzburgQ3PTR&DM1_Site=Secretescapes
+  link: https://www.britishairways.com/en-gb/destinations/hotel-information/Salzburg/Mercure-Salzburg-Central-(Ex-Kapuzinerberg)/AT-SZG-8820310&depDate=07-10-19&duration=3?DM1_Channel=AFF&DM1_Campaign=UKI_GB_EN_0_Secretescapes_MecureSalzburgQ3PTR&DM1_Site=Secretescapes
 
 - page: salzburg-city
   external: true
-  title: Three nights at the 4* Villa Carlton
+  title: 3-night stay at the 4* Villa Carlton with British Airways Holidays
   id: ba-villacarlton
   location: 4* Villa Carlton, Salzburg City, Austria
   description: Travelling on selected departures between October 14 to November 15. Includes Euro Traveller return flights from Gatwick and accommodation with breakfast. Book by October 2.
   price: 319
   price-description: per person for 3 nights
-  link: https://www.britishairways.com/en-gb/destinations/salzburg/salzburg-holidays?DM1_Channel=AFF&DM1_Campaign=UKI_GB_EN_0_Secretescapes_VillacarltonSalzburgQ3PTR&DM1_Site=Secretescapes
+  link: https://www.britishairways.com/en-gb/destinations/hotel-information/Salzburg/Villa-Carlton/AT-Z15-2871121&depDate=16-10-19&duration=3?DM1_Channel=AFF&DM1_Campaign=UKI_GB_EN_0_Secretescapes_VillaCarltonSalzburgQ3PTR&DM1_Site=Secretescapes
