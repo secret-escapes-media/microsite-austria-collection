@@ -29,17 +29,18 @@ sections:
   - id: outdoor
     title: Outdoor Adventure
     image-credit: "© Wandern am Penkenjoch Zillertaler Alpen / Zillertal Tourismus GmbH / Andre Schoenherr"
-    content: Head for autumnal beauty in a selection of gorgeous regions. The variety is wild; piercing peaks await in Ötztal, where 250 mountains stretch higher than 3,000 metres guaranteeing magnificent views at every turn. For typical Austrian beauty head for the valley of Zillertal, where picture-perfect Tirolean scenes await. Wooded mountain glades and glacial rivers are met with foodie delicacies and festivals. In Vorarlberg, untouched woodland wonders beset with wooden cottages and vast peaks paint a charming pastoral picture. If that wasn’t enough, head for quintessential alpine scenes in SalzburgerLand. Jutting peaks and cool lakes offer up picturesque panorama, perfect for outdoor adventures in remarkable mountainous surroundings. 
+    content: Head for autumnal beauty in a selection of gorgeous regions. The variety is wild; piercing peaks await in Ötztal, where 250 mountains stretch higher than 3,000 metres guaranteeing magnificent views at every turn. For typical Austrian beauty head for the valley of Zillertal, where picture-perfect Tirolean scenes await. Wooded mountain glades and glacial rivers are met with foodie delicacies and festivals. In Vorarlberg, untouched woodland wonders beset with wooden cottages and vast peaks paint a charming pastoral picture. If that wasn’t enough, head for quintessential alpine scenes in SalzburgerLand. Jutting peaks and cool lakes offer up picturesque panorama, perfect for outdoor adventures in remarkable mountainous surroundings.
 
 ---
 
 {% assign offers = site.data.offers %}
 {% assign offers-by-saving = offers | sort: 'saved' | reverse %}
-{% assign offers-by-price = offers | sort: 'price' %}
 
 <div class="container">
+
   <div class="row row--xl-6-6 row--gutters-lg">
-    {% for offer in offers-by-price %}
+    {% for offer in offers-by-saving %}
+      {% unless offer.external %}
       <div class="col">
         {% if offer.external %}
           {% include offer/external-offer.html %}
@@ -47,6 +48,20 @@ sections:
           {% include offer/offer.html %}
         {% endif %}
       </div>
+      {% endunless %}
+    {% endfor %}
+    <!-- EXTERNAL OFFERS -->
+    {% for offer in offers %}
+      {% if offer.external %}
+      <div class="col">
+        {% if offer.external %}
+          {% include offer/external-offer.html %}
+        {% else %}
+          {% include offer/offer.html %}
+        {% endif %}
+      </div>
+      {% endif %}
     {% endfor %}
   </div>
+
 </div>

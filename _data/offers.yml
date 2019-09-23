@@ -50,20 +50,61 @@
   expires: 2019/09/30
   image: https://d2g6qre7voj6kv.cloudfront.net/sales/92144/39f81c30_efc2_4ba8_8c69_f94144096651.jpg?auto=format,compress
   link: https://www.secretescapes.com/hotel-schani-wien-vienna-austria/sale
-# 
-# - external: true
-#   title: 7-night stay at the 4* Karwendelhof Seefeld with British Airways Holidays
-#   id: ba-innsbruck
-#   location: 4* Karwendelhof Seefeld, Innsbruck, Austria
-#   description: Travelling December 8 to January 31. Includes Euro Traveller return flights from Heathrow and accommodation with breakfast. Book by October 2.
-#   price: 999
-#   price-description: per person for 7 nights
-#   link: https://www.britishairways.com/en-gb/destinations/hotel-information/Innsbruck/Karwendelhof,-Seefeld/AT-ANT-2122655
-#
-#
+
+- title: Apart Relax
+  location: Längenfeld, Austria
+  description: Austrian apartment stay in the Ötztal alpine valley
+  price: 93
+  price-description: per room per night
+  saved: 44
+  expires: 2019/10/07
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/101882/38b0d679_60ee_4fcb_beff_37384d0f42ee.jpg?auto=format,compress
+  link: https://www.secretescapes.com/apart-relax-laengenfeld-tyrol-austria/sale
+
+- title: Sporthotel Chalets Silvretta Montafon
+  location: Gaschurn, Austria
+  description: Chic alpine design in Austria’s mountains
+  price: 87
+  price-description: per room per night
+  saved: 48
+  expires: 2019/10/07
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/51464/420b5243_1b87_487a_8a11_843e2e731675.jpg?auto=format,compress
+  link: https://www.secretescapes.com/sporthotel-chalets-silvretta-montafon-gaschurn-austria/sale
+
+- title: DasPosthotel
+  location: Zell im Ziller, Austria
+  description: Luxe, alpine spa hotel in the Austrian Alps with wellness facilities
+  price: 193
+  price-description: per suite per night
+  saved: 45
+  expires: 2019/10/07
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/35836/c4a89a5e_3701_4f03_8f9b_1f8acd93c91a.jpg?auto=format,compress
+  link: https://www.secretescapes.com/dasposthotel-zell-im-ziller-austria/sale
+
+- title: Hotel Daniel
+  location: Vienna, Austria
+  description: Cool urban digs near Vienna's Belvedere Palace
+  price: 114
+  price-description: per room per night
+  saved: 35
+  expires: 2019/10/07
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/102012/d9ed7d91_98d0_4fe0_841c_c06421876d9c.jpg?auto=format,compress
+  link: https://www.secretescapes.com/hotel-daniel-vienna-austria-uk/sale
+
 
 
 # SALZBURG CITY
+
+- page: salzburg-city
+  title: Wyndham Grand Salzburg Conference Center
+  location: Salzburg, Austria
+  description: Modern Salzburg pad near the city sights
+  price: 123
+  price-description: per room per night
+  saved: 52
+  expires: 2019/10/07
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/102131/12b30ff8_4714_4c4b_8423_ab7f77e9ccd6.jpg?auto=format,compress
+  link: https://www.secretescapes.com/wyndham-grand-salzburg-conference-center-salzburg-austria/sale
 
 - page: salzburg-city
   external: true
@@ -84,3 +125,11 @@
   price: 319
   price-description: per person for 3 nights
   link: https://www.britishairways.com/en-gb/destinations/hotel-information/Salzburg/Villa-Carlton/AT-Z15-2871121&depDate=16-10-19&duration=3?DM1_Channel=AFF&DM1_Campaign=UKI_GB_EN_0_Secretescapes_VillaCarltonSalzburgQ3PTR&DM1_Site=Secretescapes
+
+- page: salzburg-city
+  external: true
+  title: Imlauer Hotel Pitter
+  id: imlauer
+  location: Salzburg
+  description: Our guests there enjoy unique atmosphere, a fantastic view of the old town of Salzburg and culinary delights at the highest level.
+  link: https://imlauer.com/hotel-pitter-salzburg/en/

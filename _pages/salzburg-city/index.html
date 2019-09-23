@@ -20,7 +20,7 @@ sections:
   - id: music
     title: Music and Art
     image-credit: "© Mozartplatz Mozart Denkmal Oesterreich / Werbung Julius Silver"
-    content: As the birthplace of Mozart, Salzburg is steeped in masterful classical performance. See his house at the Mozart museum, or better yet catch one of many performances across the city (like the Best of Mozart Fortress Concert). But it’s not all orchestral pomp; there’s a surprising collection of jazz bars where scenesters improv into the night. Galleries are also a traditional mainstay of Salzburg’s regal charms, though their contents are thoroughly with the times. The Rudolf Budja Gallery (pop-art galore in surprising surroundings) and the classical Galerie Thaddaeus Ropac (which has a sister gallery in London, should you want a sneak-peek) both feature incredible contemporary collections, with smaller spots like Fotohof and the Walk of Modern Art building – across less traditional mediums – on a foundation of artistic culture. 
+    content: As the birthplace of Mozart, Salzburg is steeped in masterful classical performance. See his house at the Mozart museum, or better yet catch one of many performances across the city (like the Best of Mozart Fortress Concert). But it’s not all orchestral pomp; there’s a surprising collection of jazz bars where scenesters improv into the night. Galleries are also a traditional mainstay of Salzburg’s regal charms, though their contents are thoroughly with the times. The Rudolf Budja Gallery (pop-art galore in surprising surroundings) and the classical Galerie Thaddaeus Ropac (which has a sister gallery in London, should you want a sneak-peek) both feature incredible contemporary collections, with smaller spots like Fotohof and the Walk of Modern Art building – across less traditional mediums – on a foundation of artistic culture.
 
   - id: food
     title: Foodie Destination
@@ -36,11 +36,12 @@ sections:
 
 {% assign offers = site.data.offers | where: "page", page.id %}
 {% assign offers-by-saving = offers | sort: 'saved' | reverse %}
-{% assign offers-by-price = offers | sort: 'price' %}
 
 <div class="container">
+
   <div class="row row--xl-6-6 row--gutters-lg">
-    {% for offer in offers-by-price %}
+    {% for offer in offers-by-saving %}
+      {% unless offer.external %}
       <div class="col">
         {% if offer.external %}
           {% include offer/external-offer.html %}
@@ -48,6 +49,19 @@ sections:
           {% include offer/offer.html %}
         {% endif %}
       </div>
+      {% endunless %}
+    {% endfor %}
+    <!-- EXTERNAL OFFERS -->
+    {% for offer in offers %}
+      {% if offer.external %}
+      <div class="col">
+        {% if offer.external %}
+          {% include offer/external-offer.html %}
+        {% else %}
+          {% include offer/offer.html %}
+        {% endif %}
+      </div>
+      {% endif %}
     {% endfor %}
   </div>
 </div>
