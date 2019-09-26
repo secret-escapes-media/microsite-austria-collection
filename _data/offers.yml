@@ -128,8 +128,9 @@
 
 - page: salzburg-city
   external: true
-  title: Imlauer Hotel Pitter
+  title: IMLAUER HOTEL PITTER Salzburg
   id: imlauer
   location: Salzburg
-  description: Our guests there enjoy unique atmosphere, a fantastic view of the old town of Salzburg and culinary delights at the highest level.
+  description: >
+    <strong>Newly renovated 4 star superior hotel in the heart of Salzburg.</strong> Enjoy traditional cuisine at the rustic and cosy beer cellar PitterKeller, and savour culinary delights with incomparable views at the rooftop IMLAUER Sky Bar & Restaurant.
   link: https://imlauer.com/hotel-pitter-salzburg/en/
