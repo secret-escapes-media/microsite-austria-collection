@@ -1,64 +1,11 @@
-
-
-
-- title: Harrys Home Vienna Millenium Tower
-  location: Vienna, Austria
-  description: Modern Vienna studio stay by the River Danube
-  price: 77
-  price-description: per studio per night
-  saved: 42
-  expires: 2019/09/23
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/74471/45ac37f6_962f_4caa_896c_ed0b18f5ce72.jpg?auto=format,compress
-  link: https://www.secretescapes.com/harrys-home-vienna-millenium-tower-vienna-austria/sale
-
-- title: Hotel Spirodom
-  location: Admont, Austria
-  description: Panoramic Austrian views at a spa hotel near Gesäuse National Park
-  price: 80
-  price-description: per room per night
-  saved: 67
-  expires: 2019/09/23
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/100957/23b330d9_19d0_4635_840b_f861b7bb8892.jpg?auto=format,compress
-  link: https://www.secretescapes.com/hotel-spirodom-admont-austria/sale
-
-- title: Grand Ferdinand
-  location: Vienna, Austria
-  description: Grand five-star Vienna boutique
-  price: 134
-  price-description: per room per night
-  saved: 47
-  expires: 2019/09/30
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/23938/740ba884_512d_422d_98a6_570c8aa3ae24.jpg?auto=format,compress
-  link: https://www.secretescapes.com/grand-ferdinand-vienna-austria/sale
-
-- title: Hotel Zum Stern
-  location: Bad Hofgastein, Austria
-  description: Ski and spa at a cosy Austrian Alps hotel
-  price: 143
-  price-description: per room per night
-  saved: 43
-  expires: 2019/09/30
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/98347/c0fed816_c5ba_426e_b8b9_30ae7d1e36b9.jpg?auto=format,compress
-  link: https://www.secretescapes.com/hotel-zum-stern-bad-hofgastein-austria/sale
-
-- title: Hotel Schani Wien
-  location: Vienna, Austria
-  description: Ultra-smart modern digs near Vienna's central station
-  price: 68
-  price-description: per room per night
-  saved: 48
-  expires: 2019/09/30
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/92144/39f81c30_efc2_4ba8_8c69_f94144096651.jpg?auto=format,compress
-  link: https://www.secretescapes.com/hotel-schani-wien-vienna-austria/sale
-
 - title: Apart Relax
   location: Längenfeld, Austria
   description: Austrian apartment stay in the Ötztal alpine valley
-  price: 93
+  price: 70
   price-description: per room per night
-  saved: 44
+  saved: 53
   expires: 2019/10/07
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/101882/38b0d679_60ee_4fcb_beff_37384d0f42ee.jpg?auto=format,compress
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/101882/cdae0cd7_7467_4215_a6b6_0c0aeb5879f8.jpg?auto=format,compress
   link: https://www.secretescapes.com/apart-relax-laengenfeld-tyrol-austria/sale
 
 - title: Sporthotel Chalets Silvretta Montafon
@@ -78,7 +25,7 @@
   price-description: per suite per night
   saved: 45
   expires: 2019/10/07
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/35836/c4a89a5e_3701_4f03_8f9b_1f8acd93c91a.jpg?auto=format,compress
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/45255/20b0ae02_b5ab_416a_afe4_6d30dbef1b98.jpg?auto=format,compress
   link: https://www.secretescapes.com/dasposthotel-zell-im-ziller-austria/sale
 
 - title: Hotel Daniel
@@ -91,20 +38,45 @@
   image: https://d2g6qre7voj6kv.cloudfront.net/sales/102012/d9ed7d91_98d0_4fe0_841c_c06421876d9c.jpg?auto=format,compress
   link: https://www.secretescapes.com/hotel-daniel-vienna-austria-uk/sale
 
-
-
-# SALZBURG CITY
-
-- page: salzburg-city
-  title: Wyndham Grand Salzburg Conference Center
-  location: Salzburg, Austria
-  description: Modern Salzburg pad near the city sights
-  price: 123
+- title: Palais Hansen Kempinski Vienna
+  location: Vienna, Austria
+  description: Five-star decadence and Michelin-starred dining in Vienna
+  price: 208
   price-description: per room per night
-  saved: 52
-  expires: 2019/10/07
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/102131/12b30ff8_4714_4c4b_8423_ab7f77e9ccd6.jpg?auto=format,compress
-  link: https://www.secretescapes.com/wyndham-grand-salzburg-conference-center-salzburg-austria/sale
+  saved: 56
+  expires: 2019/10/14
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/56586/abf0410e_8c76_445b_ba18_92b5b5ffc99c.jpg?auto=format,compress
+  link: https://www.secretescapes.com/palais-hansen-kempinski-vienna-vienna-austria-5/sale
+
+- title: Ruby Lissi Hotel
+  location: Vienna, Austria
+  description: Stay in the heart of Vienna at this chic urban base
+  price: 88
+  price-description: per room per night
+  saved: 39
+  expires: 2019/10/14
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/102483/148e6fe4_0453_4bf4_8f1c_cbc7e65e3a6d.jpg?auto=format,compress
+  link: https://www.secretescapes.com/ruby-lissi-hotel-vienna-austria/sale
+
+- title: "Vienna: Capital of Cakes"
+  location: Vienna, Austria
+  description: Experience the sweet side of the Austrian capital from a 4-star hotel in Vienna. Incl. breakfast, coffee and cake at Conditorei Sluka & return flights
+  price: 151
+  price-description: per person. Based on 2 persons
+  image: https://travelbird-images.imgix.net/87/38/873887253b891c2a0ce14ea866186df2?auto=compress%2Cformat&crop=faces%2Cedges%2Ccenter&dpr=2&fit=crop&h=471&w=700
+  link: https://co.uk.sales.secretescapes.com/114723/vienna-capital-of-cake/
+
+- title: Hotel Karwendelhof
+  id: hotel-karwendelhof
+  location: Seefeld, Tirol, Austria
+  description: Innsbruck - British Airways Holidays offers seven nights at the 4* Karwendelhof Seefeld, from £999 per person, travelling December 8 to January 31. Includes Euro Traveller return flights from Heathrow and accommodation with breakfast. Book by October 2.
+  link: https://www.britishairways.com/en-gb/destinations/hotel-information/Innsbruck/Karwendelhof,-Seefeld/AT-ANT-2122655
+  external: true
+
+
+################################################################################
+#  SALZBURG CITY
+################################################################################
 
 - page: salzburg-city
   external: true
@@ -134,3 +106,14 @@
   description: >
     <strong>Newly renovated 4 star superior hotel in the heart of Salzburg.</strong> Enjoy traditional cuisine at the rustic and cosy beer cellar PitterKeller, and savour culinary delights with incomparable views at the rooftop IMLAUER Sky Bar & Restaurant.
   link: https://imlauer.com/hotel-pitter-salzburg/en/
+
+- page: salzburg-city
+  title: Wyndham Grand Salzburg Conference Center
+  location: Salzburg, Austria
+  description: Modern Salzburg pad near the city sights
+  price: 158
+  price-description: per room per night
+  saved: 52
+  expires: 2019/10/07
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/102131/2f61feb6_3227_418e_a652_58a1daf286b6.jpg?auto=format,compress
+  link: https://www.secretescapes.com/wyndham-grand-salzburg-conference-center-salzburg-austria/sale
