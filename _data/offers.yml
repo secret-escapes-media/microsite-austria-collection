@@ -5,28 +5,8 @@
   price-description: per room per night
   saved: 53
   expires: 2019/10/07
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/101882/cdae0cd7_7467_4215_a6b6_0c0aeb5879f8.jpg?auto=format,compress
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/101882/db40aa88_a0a3_4446_8a79_71845adc90b1.jpg?auto=format,compress
   link: https://www.secretescapes.com/apart-relax-laengenfeld-tyrol-austria/sale
-
-- title: Sporthotel Chalets Silvretta Montafon
-  location: Gaschurn, Austria
-  description: Chic alpine design in Austria’s mountains
-  price: 87
-  price-description: per room per night
-  saved: 48
-  expires: 2019/10/07
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/51464/420b5243_1b87_487a_8a11_843e2e731675.jpg?auto=format,compress
-  link: https://www.secretescapes.com/sporthotel-chalets-silvretta-montafon-gaschurn-austria/sale
-
-- title: DasPosthotel
-  location: Zell im Ziller, Austria
-  description: Luxe, alpine spa hotel in the Austrian Alps with wellness facilities
-  price: 193
-  price-description: per suite per night
-  saved: 45
-  expires: 2019/10/07
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/45255/20b0ae02_b5ab_416a_afe4_6d30dbef1b98.jpg?auto=format,compress
-  link: https://www.secretescapes.com/dasposthotel-zell-im-ziller-austria/sale
 
 - title: Hotel Daniel
   location: Vienna, Austria
@@ -35,7 +15,7 @@
   price-description: per room per night
   saved: 35
   expires: 2019/10/07
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/102012/d9ed7d91_98d0_4fe0_841c_c06421876d9c.jpg?auto=format,compress
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/57733/6acc9c06_73f8_4784_9972_5de4c26ac8a2.jpg?auto=format,compress
   link: https://www.secretescapes.com/hotel-daniel-vienna-austria-uk/sale
 
 - title: Palais Hansen Kempinski Vienna
@@ -45,7 +25,7 @@
   price-description: per room per night
   saved: 56
   expires: 2019/10/14
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/56586/abf0410e_8c76_445b_ba18_92b5b5ffc99c.jpg?auto=format,compress
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/65107/b0f08102_0ed3_43a6_b629_2e5404ef07cc.jpg?auto=format,compress
   link: https://www.secretescapes.com/palais-hansen-kempinski-vienna-vienna-austria-5/sale
 
 - title: Ruby Lissi Hotel
@@ -55,8 +35,28 @@
   price-description: per room per night
   saved: 39
   expires: 2019/10/14
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/102483/148e6fe4_0453_4bf4_8f1c_cbc7e65e3a6d.jpg?auto=format,compress
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/50411/ea7bd1e3_3043_4058_ac88_b2452dbe01a2.jpg?auto=format,compress
   link: https://www.secretescapes.com/ruby-lissi-hotel-vienna-austria/sale
+
+- title: Hotel Tannenhof
+  location: St. Johann im Pongau, Austria
+  description: A high-end Austrian stay with spa in the Salzach Valley
+  price: 168
+  price-description: per room per night
+  saved: 36
+  expires: 2019/10/14
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/50333/1301017d_9a18_4e50_87a0_6286b66b8bf9.jpg?auto=format,compress
+  link: https://www.secretescapes.com/hotel-tannenhof-st-johann-im-pongau-austria32/sale
+
+- title: Puradies
+  location: Leogang, Austria
+  description: Blissful spa and gourmet retreat in the Austrian Alps
+  price: 204
+  price-description: per suite per night
+  saved: 43
+  expires: 2019/10/14
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/63901/6bbac84e_1ee3_45e9_8e87_1a25f8e1444d.jpg?auto=format,compress
+  link: https://www.secretescapes.com/puradies-leogang-austria/sale
 
 - title: Traumhotel Liebes Rot-Flueh
   location: Haldensee, Austria
@@ -65,8 +65,18 @@
   price-description: per room per night
   saved: 66
   expires: 2019/10/14
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/85993/8ac4b921_bd4a_4fd0_a994_f111108fe538.jpg?auto=format,compress
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/10799/bf71271e_5c22_4330_9a6f_efe200dbb127.jpg?auto=format,compress
   link: https://www.secretescapes.com/traumhotel-liebes-rot-flueh-haldensee-austria/sale
+
+- title: Max Brown 7th District
+  location: Vienna, Austria
+  description: A boutique home from home in artsy Vienna
+  price: 67
+  price-description: per room per night
+  saved: 46
+  expires: 2019/10/21
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/97672/cec43188_fa14_494d_a7fd_1fec251f08a3.jpg?auto=format,compress
+  link: https://www.secretescapes.com/max-brown-7th-district-vienna-austria/sale
 
 - title: "Vienna: Capital of Cakes"
   location: Vienna, Austria
@@ -125,5 +135,5 @@
   price-description: per room per night
   saved: 52
   expires: 2019/10/07
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/102131/2f61feb6_3227_418e_a652_58a1daf286b6.jpg?auto=format,compress
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/102131/12b30ff8_4714_4c4b_8423_ab7f77e9ccd6.jpg?auto=format,compress
   link: https://www.secretescapes.com/wyndham-grand-salzburg-conference-center-salzburg-austria/sale
